@@ -1,4 +1,5 @@
 from scapy.all import *
+#if using windows machine download and install Npcap because wincap is deprecated
 
 dest_ip = "192.168.1.1/24"
 arp = ARP(pdst=dest_ip) #arp packet creation
